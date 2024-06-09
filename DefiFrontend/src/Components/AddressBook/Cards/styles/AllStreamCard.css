@@ -1,0 +1,17 @@
+.AllStreamCard {
+  width: 230px;
+}
+
+.streamIndv {
+  margin-block: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.icon {
+  width: 30px;
+}

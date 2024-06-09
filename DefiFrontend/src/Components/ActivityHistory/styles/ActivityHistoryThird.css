@@ -1,0 +1,23 @@
+.activityType {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 10px;
+  border: 1px solid var(--border);
+  height: 28px;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.activityTypeContainer {
+  position: relative;
+  z-index: 15;
+}
+
+.Goerli {
+  padding: 8px 20px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+}

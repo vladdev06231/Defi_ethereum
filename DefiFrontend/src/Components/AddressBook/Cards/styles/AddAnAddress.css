@@ -1,0 +1,44 @@
+.AddAddress {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px;
+  width: min(500px, 97%);
+  box-sizing: border-box;
+  z-index: 15;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.addAdnAddressTopic {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.addAddressForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cross {
+  color: grey;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.AddAddress input {
+  height: 50px;
+  border-radius: 10px;
+  border: 3px solid var(--mainColor);
+  outline: none;
+  width: 97%;
+  font-size: 1.1rem;
+  padding-left: 10px;
+}

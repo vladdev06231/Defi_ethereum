@@ -1,0 +1,17 @@
+.Activity {
+  width: min(1000px, 97%);
+  background-color: white;
+  margin: 30px auto;
+  min-height: 300px;
+  box-shadow: var(--pages_Box);
+  padding: max(2vw, 10px);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+.activityHistory {
+  font-size: max(2vw, 1.2rem);
+  font-weight: 500;
+}

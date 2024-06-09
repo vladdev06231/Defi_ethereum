@@ -1,0 +1,12 @@
+.AddressBookContainer {
+  width: min(1100px, 97%);
+  margin: 30px auto;
+  padding: max(3vw, 10px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: white;
+  position: relative;
+  box-sizing: border-box;
+}

@@ -1,0 +1,15 @@
+:root {
+  --bg_Color: #f5fcf5;
+  --bg_Green_Color: rgba(190, 244, 190, 0.727);
+  --border: #dddee2;
+  --mainFontSize: 13px;
+  --mainColor: green;
+  --red_bg: rgb(250, 209, 209);
+  --pages_Box: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+body {
+  font-size: var(--mainFontSize);
+  background-color: var(--bg_Color);
+  box-sizing: border-box;
+}

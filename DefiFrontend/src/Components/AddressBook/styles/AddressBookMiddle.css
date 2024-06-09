@@ -1,0 +1,117 @@
+.AddressBookMiddle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.AddressBookMiddleLeftAndRight {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.react-datepicker-popper {
+  z-index: 12 !important;
+}
+.bgCoverScreen {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.coverScreen {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 14;
+}
+
+.makeItUp {
+  transform: rotate(180deg);
+  transition: 0.3s linear;
+}
+.addressOption {
+  width: min(300px, 97vw);
+  background-color: red;
+}
+
+.makeItDown {
+  transition: 0.3s linear;
+}
+.streamOption {
+  padding: 10px 20px !important;
+}
+
+.disableRemoveAddress {
+  cursor: not-allowed !important;
+  opacity: 0.5;
+}
+
+.adressesAndStreamOption {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  left: 0px;
+  background-color: white;
+  position: absolute;
+  top: 40px;
+  padding: 20px;
+  z-index: 17;
+}
+.allAddessContainer {
+  position: relative;
+}
+
+.allAddressAllStreams {
+  padding: 7px 15px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  box-sizing: border-box;
+  gap: 15px;
+  z-index: 12;
+}
+
+.addAddress {
+  padding: 7px 20px;
+  color: var(--mainColor);
+  background-color: var(--bg_Green_Color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.removeAddress {
+  padding: 7px 20px;
+  background-color: var(--red_bg);
+  color: red;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .addAddress {
+    padding: 7px 10px;
+  }
+
+  .cancelInResponsive {
+    display: none;
+  }
+
+  .allAddressAllStreams {
+    padding: 5px;
+    gap: 7px;
+  }
+
+  .resDrop {
+    gap: 5px;
+    font-size: 0.8rem;
+  }
+
+  .resMoveTop {
+    gap: 10px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+}

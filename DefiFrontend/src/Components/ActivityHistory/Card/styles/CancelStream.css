@@ -1,0 +1,45 @@
+.cancelStreams table {
+  border-collapse: collapse;
+}
+
+.cancelStreams {
+  border: 1px solid var(--border);
+  box-sizing: border-box;
+  border-radius: 20px;
+  min-height: 200px;
+  position: relative;
+}
+
+.cancelStreams tr {
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+.cancelStreams td,
+th {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 540px) {
+  th {
+    display: none;
+  }
+
+  td {
+    display: block;
+    width: 95%;
+    text-align: right;
+    position: relative;
+    padding-right: 30px;
+  }
+
+  td::before {
+    content: attr(data-title);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 10px;
+  }
+}

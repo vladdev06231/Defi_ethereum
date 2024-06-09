@@ -1,0 +1,21 @@
+.activityDateAndAddress {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+form {
+  width: 100%;
+}
+.activityDateAndAddress input {
+  border: 1px solid var(--border);
+  outline: none;
+  padding: 13px;
+  width: max(50%, 20px);
+  border-radius: 10px;
+}
+
+.my-datepicker-class {
+  width: 250px !important;
+  text-align: center;
+  cursor: pointer;
+}

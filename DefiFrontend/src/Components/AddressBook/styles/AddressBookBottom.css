@@ -1,0 +1,92 @@
+.addressImages {
+  border-radius: 5px;
+  width: 30px;
+}
+
+.addressBookBotom table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.addressBookBotom {
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding-bottom: 30px;
+  position: relative;
+  min-height: 150px;
+}
+
+.copyAddress {
+  cursor: pointer;
+  color: grey;
+}
+
+.addressBookBotom tr {
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+.checkBox {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 10px;
+  width: 10px;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+
+.NoAddressAvailable {
+  margin: auto;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: max(1.5vw, 1.2rem);
+  font-weight: 500;
+}
+
+.cancelRemove {
+  background-color: white;
+  color: black;
+  border: 1px solid var(--border);
+}
+
+.bgCheckBox {
+  background-color: var(--mainColor);
+}
+
+.addressBookBotom th {
+  padding: 13px;
+  color: grey;
+}
+.addressBookBotom td {
+  padding: 7px 20px;
+
+  text-align: center;
+}
+
+.addressImageContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 540px) {
+  .addressBookBotom tr {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+  }
+  .addressBookBotom td {
+    text-align: right;
+    padding-inline: 10px;
+  }
+
+  .imageName {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}

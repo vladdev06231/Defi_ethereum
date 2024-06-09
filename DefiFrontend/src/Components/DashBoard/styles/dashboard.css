@@ -1,0 +1,28 @@
+.dashboardContainer {
+  width: min(97%, 1100px);
+  background-color: white;
+  box-shadow: var(--pages_Box);
+  min-height: 440px;
+  padding: max(2vw, 10px) 0;
+  margin: 40px auto;
+}
+
+.streamMoney {
+  padding: 10px 25px;
+  background-color: var(--mainColor);
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.dashboard {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.dashboardContainerTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 max(2vw, 10px);
+}

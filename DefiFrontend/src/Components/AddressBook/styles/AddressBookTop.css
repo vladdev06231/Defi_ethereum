@@ -1,0 +1,33 @@
+.AddressBookTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.AddressBookTopLeft {
+  font-size: max(2vw, 1.2rem);
+  font-weight: 500;
+}
+
+.AddressBookTopRight {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.importExport {
+  padding: 5px 15px;
+  border: 1px solid grey;
+  display: flex;
+  height: 20px;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .AddressBookTopRight {
+    display: none;
+  }
+}

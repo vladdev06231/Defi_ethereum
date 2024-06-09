@@ -1,0 +1,168 @@
+.dashboardBottom th {
+  width: 16%;
+  color: grey;
+}
+
+.dashboardBottom {
+  margin-top: 30px;
+  min-height: 200px;
+  position: relative;
+}
+
+.cryptoImagesDashboard {
+  width: 20px;
+  border-radius: 50%;
+}
+
+.withOpacity {
+  opacity: 0.6;
+  cursor: not-allowed !important;
+}
+
+.Deposit {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding-left: 2vw !important;
+}
+.cryptoDashboard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.Streaming {
+  padding: 7px 10px;
+  max-width: 100px;
+  margin-left: 25px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: var(--bg_Green_Color);
+  color: var(--mainColor);
+}
+.dashboardBottom tr {
+  border-bottom: 1px solid var(--border);
+}
+.dashboardBottom th {
+  padding-block: 10px;
+}
+.dashboardBottom .addAddress {
+  width: 55px;
+}
+.ellipse {
+  position: relative;
+  right: 20px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.dashboardBottom tr {
+  text-align: center;
+}
+.cancelWithdraw {
+  z-index: 15;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ellipse:hover {
+  transform: rotate(90deg);
+}
+.dashboardBottom .removeAddress {
+  max-width: 55px;
+}
+.dashboardBottom td {
+  position: relative;
+  padding: 10px 10px;
+}
+.progressBar {
+  width: 150px;
+  background-color: var(--border);
+  height: 3px;
+}
+
+.progressBarGreenColor {
+  background-color: green;
+}
+
+.Cancelled {
+  padding: 7px 10px;
+  max-width: 100px;
+  margin-left: 25px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: var(--red_bg);
+  color: red;
+}
+
+.progressBarRedColor {
+  background-color: red;
+}
+
+@media screen and (max-width: 910px) {
+  .dashboardBottom th {
+    font-size: 0.9rem;
+  }
+
+  .Streaming {
+    bottom: -15px;
+    position: absolute;
+    background-color: white;
+    color: green;
+    right: 10px;
+  }
+  .Cancelled {
+    bottom: -15px;
+    position: absolute;
+    background-color: white;
+    color: red;
+    right: 10px;
+  }
+  .status {
+    text-align: right !important;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .bar {
+    padding: 10px 0px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .dashboardBottom td {
+    font-size: 0.8rem;
+    align-items: center;
+  }
+
+  .dashboardBottom .addAddress {
+    width: 65px;
+  }
+  .dashboardBottom .removeAddress {
+    max-width: 45px;
+  }
+
+  .cancelWithdraw {
+    width: 85px;
+    left: 88%;
+    transform: translate(-100%);
+  }
+  .Deposit {
+    justify-content: flex-end;
+  }
+}

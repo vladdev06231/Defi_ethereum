@@ -1,0 +1,31 @@
+.createStreams table {
+  border-collapse: collapse;
+}
+
+.createStreams {
+  border: 1px solid var(--border);
+  position: relative;
+  border-radius: 20px;
+}
+
+.createStreams {
+  min-height: 200px;
+}
+
+.loadingAndNo {
+  position: absolute;
+  top: 50%;
+  font-size: 1.2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.createStreams tr {
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+.createStreams td,
+th {
+  padding: 10px;
+}

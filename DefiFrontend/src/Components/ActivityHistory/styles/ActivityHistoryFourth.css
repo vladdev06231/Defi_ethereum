@@ -1,0 +1,13 @@
+.PlzSelectAActivityType {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  letter-spacing: 50%;
+  transform: translate(-50%, -50%);
+  font-size: max(1.5vw, 1.2rem);
+}
+
+.activityHistoryFourth {
+  min-height: 200px;
+  position: relative;
+}

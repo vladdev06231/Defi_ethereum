@@ -1,0 +1,19 @@
+.withDrawStreams table {
+  border-collapse: collapse;
+}
+.withDrawStreams td,
+th {
+  padding: 10px 0px;
+}
+
+.withDrawStreams tr {
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+.withDrawStreams {
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  position: relative;
+  min-height: 200px;
+}

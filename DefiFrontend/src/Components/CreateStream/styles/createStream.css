@@ -1,0 +1,152 @@
+.stream_Main_Container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.datePicker {
+  max-width: 200px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  left: 40%;
+  text-align: center;
+  transform: translate(-50%);
+  z-index: -1 !important;
+}
+#date-picker-portal {
+  z-index: 4;
+}
+.crypto {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cryptoNameAndImages {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  background-color: white;
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 120px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.selectedCrypto {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cryptoNameAndImagesIndv {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  z-index: 9999999;
+}
+
+.cryptoImages {
+  width: 30px;
+  border-radius: 50%;
+}
+.stream_Container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: min(550px, 97%);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 1rem;
+  padding: max(2vw, 13px);
+  border-radius: 20px;
+  box-sizing: border-box;
+  z-index: 12;
+}
+
+.Crypto {
+  position: relative;
+  bottom: 10px;
+}
+
+.tokenFlow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.time {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid var(--border);
+  width: 100%;
+  height: 42px;
+  border-radius: 0 10px 10px 0;
+}
+
+.stream_Container input {
+  height: 42px;
+  width: 100%;
+  border: 1px solid var(--border);
+  outline: none;
+  margin: 10px 0;
+  padding-inline: 10px;
+  box-sizing: border-box;
+}
+
+.input {
+  border-radius: 10px;
+}
+
+.rateAndTime {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.stream {
+  background-color: var(--bg_Green_Color);
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+  color: var(--mainColor);
+  padding: 7px 0;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.rate {
+  border-radius: 10px 0px 0px 10px;
+}
+.twoInputs {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+}
+
+.stream_Container button {
+  background-color: var(--mainColor);
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+}
